@@ -36,8 +36,10 @@ class AppStoreSearch
       
       app_info = result["results"][0]
       
+      p app_info
+
       self.title = app_info["trackCensoredName"]
-      self.icon = app_info["artworkUrl60"]
+      self.icon = app_info["artworkUrl100"]
       self.url = app_info["trackViewUrl"]
 
       yield true

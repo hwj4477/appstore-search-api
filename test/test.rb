@@ -1,6 +1,6 @@
 require 'appstore-search-api'
 
-TEST_APP_ID = 422876559
+TEST_APP_ID = 854982437
 
 app_info = AppStoreSearch.new
 
