@@ -35,8 +35,6 @@ class AppStoreSearch
       end
       
       app_info = result["results"][0]
-      
-      p app_info
 
       self.title = app_info["trackCensoredName"]
       self.icon = app_info["artworkUrl100"]

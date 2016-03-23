@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'appstore-search-api'
-  s.version     = '0.1.3'
+  s.version     = '0.1.4'
   s.date        = '2016-03-23'
   s.summary     = 'AppStore Search API'
   s.description = 'AppStore Search API Helper'
