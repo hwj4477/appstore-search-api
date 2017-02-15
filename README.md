@@ -13,9 +13,9 @@ require 'appstore-search-api'
 
 TEST_APP_ID = 422876559
   
-    app_info = AppStoreSearch.new
+app_info = AppStoreSearch.new
 
-    app_info.request_app_info(TEST_APP_ID) do |result|
+app_info.request_app_info(TEST_APP_ID) do |result|
   
     if result
         p "success"
